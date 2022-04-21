@@ -1,0 +1,243 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+        
+        <title>书源快捷导入</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/tab.js"></script>
+    </head>
+    <body>
+        <section class="aui-flexView" data-ydui-tab="">
+            <header class="aui-navBar aui-navBar-fixed">
+                <ul class="tab-nav b-line">
+                    <li class="tab-nav-item tab-active">
+                        <a>
+                            <span>一键导入</span>
+                        </a>
+                    </li>
+                    <li class="tab-nav-item">
+                        <a>
+                            <span>更新说明</span>
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <section class="aui-scrollView">
+                <div class="tab-panel">
+                    <div class="tab-panel-item tab-active">
+                     <!-- <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>首页</h1>
+                            </div>
+                            <a href="/">
+                            <div class="aui-film-button">
+                                <button>
+                                    点击前往
+                                </button>
+                            </div>
+                            </a>
+                        </div>-->
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>源仓库书源</h1>
+                                <span>
+                                    <em>4月2日更新</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://yd.mgz6.cc/shuyuan/yck148.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>namofree的书源</h1>
+                                <div>1.新增4个、修复1个，删除2个失效书源</div>
+                                <div>2.把原来删除的失效超星图书，找到修复版后重新加了进来</div>
+                                <div>3.建议把之前的Namo分组删除全新导入</div>
+                                <span>
+                                    <em>通用</em>
+                                    <em>精简</em>
+                                    <em>适合大部分人</em>
+                                    <em>4月更新</em>
+                                    <em>48个</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://namofree.gitee.io/yuedu3/legado3_booksource_by_Namo.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>一程的书源合集</h1>
+                                <div>1.修复了一些细节</div>
+                                <div>2.本月书源有增有减</div>
+                                <div>3.一些规则变动的修复</div>
+                                <span>
+                                    <em>通用</em>
+                                    <em>精简</em>
+                                    <em>4月更新</em>
+                                    <em>343个</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://e-c.coding.net/p/yicheng/d/YD/git/raw/master/sy.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>haxc的漫画源合集</h1>
+                                <span>
+                                    <em>4月更新</em>
+                                    <em>135个</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://haxc.coding.net/p/booksrc/d/booksrc/git/raw/master/bookSource.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>糖果超甜的女频书源合集</h1>
+                                <span>
+                                    <em>通用</em>
+                                    <em>精简</em>
+                                    <em>4月更新</em>
+                                    <em>138个</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://tangguochaotian.coding.net/p/tangguoshuyuan1015/d/tangguo/git/raw/master/exportBookSource.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>关耳的女频书源合集</h1>
+                                <span>
+                                    <em>通用</em>
+                                    <em>精简</em>
+                                    <em>90个</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://guaner001125.coding.net/p/coding-code-guide/d/booksources/git/raw/master/sources/guaner.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>黄凡凡书源</h1>
+                                <span>
+                                    <em>通用</em>
+                                    <em>4月11日更新</em>
+                                    <em>469书源</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/mgz0227/legadobookSource/hffsy.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>不世玄奇搜索引擎书源</h1>
+                                <span>
+                                    <em>通用</em>
+                                    <em>有更新</em>
+                                </span>
+                            </div>
+                            <a href="yuedu://booksource/importonline?src=http://no-mystery.gitee.io/shuyuan/%E5%85%A8%E7%BD%91%E9%80%9A%E7%94%A8.json">
+                            <div class="aui-film-button">
+                                <button>
+                                    一键导入
+                                </button>
+                            </div>
+                            </a>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <div><p>
+                            	<a href="https://Google.com/" target="_blank">喵ICP备20225201314号-7</a>
+                            	<a target="_blank" href="https://Google.com" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;">Copyright 2021 ICATBS. All Rights Reserved.</a>
+                            		 
+                            	       </p>
+                            	  </div>
+                            </div>
+                        </div>
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-panel-item tab-active">
+                        <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>3月4日更新</h1>
+                                <div>1.书源全面更新</div>
+                                <div>2.对于阅读URL导出，旧版本已结束技术支持，如发现无法导出请更新阅读版本</div>
+                                <div>3.对于阅读导出URL时效，默认提供２天存储，过期删除。</div>
+                                <div>4.如需使用长期链接，请使用本站提供的自助本地书源转网络导入</div>
+                            </div>
+                        </div>
+                   <!--     <div type="" about="" class="aui-flex b-line">
+                            <div class="aui-flex-box">
+                                <h1>2月2日更新</h1>
+                                <div>1.全新改版一键导入页面</div>
+                                <div>2.对于阅读URL导出，旧版本已结束技术支持，如发现无法导出请更新阅读版本</div>
+                                <div>3.对于阅读导出URL时效，默认提供２天存储，过期删除。</div>
+                                <div>4.如需使用长期链接，请使用本站提供的自助本地书源转网络导入</div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+                <div style="height:55px;"></div>
+            </section>
+        </section>
+                    <footer class="aui-footer aui-footer-fixed">
+                <a href="/" class="aui-tabBar-item ">
+                <span class="aui-tabBar-item-icon">
+                    <i class="icon icon-loan"></i>
+                </span>
+                    <span class="aui-tabBar-item-text">首页</span>
+                </a>
+                <a href="/gx.html" class="aui-tabBar-item aui-tabBar-item-active">
+                <span class="aui-tabBar-item-icon">
+                    <i class="icon icon-ions"></i>
+                </span>
+                    <span class="aui-tabBar-item-text">阅读书源</span>
+                </a>
+                
+            </footer>
+    
+
+</body></html>
