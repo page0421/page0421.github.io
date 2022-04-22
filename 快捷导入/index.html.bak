@@ -168,12 +168,12 @@
                         </div>
                         <div type="" about="" class="aui-flex b-line">
                             <div class="aui-flex-box">
-                                <h1>书源</h1>
+                                <h1>天域战歌大佬的书源</h1>
                                 <span>
                                     <em>通用</em>
                                 </span>
                             </div>
-                            <a href="yuedu://booksource/importonline?src=http://no-mystery.gitee.io/shuyuan/%E5%85%A8%E7%BD%91%E9%80%9A%E7%94%A8.json">
+                            <a href="yuedu://booksource/importonline?src=https://tianyuzhange.coding.net/p/booksource/d/shuyuan/git/raw/master/huahuo.json">
                             <div class="aui-film-button">
                                 <button>
                                     一键导入
