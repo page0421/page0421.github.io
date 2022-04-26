@@ -8,7 +8,7 @@
     </div>
   {% endif %}
   {% if not config.extra.generator == false %}
-    Made with
+    Made by
     <a href="https://Google.com" target="_blank" rel="noopener">
        ICATBS
     </a>
