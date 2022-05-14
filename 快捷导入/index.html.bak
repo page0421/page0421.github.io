@@ -88,7 +88,7 @@
                                     <em>精简</em>                                                        <em>听书</em>              
                                 </span>
                             </div>
-                            <a href="yuedu://booksource/importonline?src=https://jt12.ml/shupan/404c05a91fe62ad64b13b931bfd117b7.json">                            
+                            <a href="yuedu://booksource/importonline?src=https://pbpobing.coding.net/p/yueduyuan/d/sy/git/raw/master/3.0shuyuan.json">                            
                             <div class="aui-film-button">
                                 <button>
                                     导入书源
@@ -402,8 +402,8 @@
                         <div type="" about="" class="aui-flex b-line">
                                 <div class="aui-flex-box">
                                 <h1>5月14日更新</h1>
-                                <div>站点复活</div>
-                                <div>新增烏雲、挚爱晚行、在下不狂、氧化钙、onede、Thomas喲、迷迭、千仞云、渊呀等多位大佬的源（可能为非最新版本）</div>                      <div>新增源类型：净化规则，TTS配置
+                                <div>①站点复活</div>
+                                <div>②新增烏雲、挚爱晚行、在下不狂、氧化钙、onede、Thomas喲、迷迭、千仞云、渊呀等多位大佬的源（可能为非最新版本）</div>                      <div>③新增源类型：净化规则，TTS配置
                             </div>
                         </div>
                     </div>
