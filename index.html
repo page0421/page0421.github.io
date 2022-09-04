@@ -1,26 +1,334 @@
-<!doctype html>
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width"> 
-        <title>一只喵书源站 - 多平台快捷更新提醒</title> 
-        <link rel="stylesheet" href="https://cdn.w3cbus.com/library/mdui/1.0.2/css/mdui.min.css"> 
-        <link rel="stylesheet" href="mdui/css/mdui.min.css">
-        <script src="mdui/js/mdui.min.js"></script>
-        <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-        <script async defer data-website-id="141e0104-67d3-4907-8c5e-45e0b036eb60" src="https://statistics.icatanalytics.ml/umami.js"></script>
-    </head> 
-    <body class="mdui-appbar-with-toolbar"> 
-        <div class="mdui-appbar mdui-appbar-fixed"> 
-            <div class="mdui-toolbar mdui-color-indigo"> <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a> <a href="javascript:;" class="mdui-typo-headline">一只喵书源站</a> 
-            </div> 
-        </div> 
-        <div class="mdui-container-fluid"> 
-        </div> 
-        <div class="mdui-list mdui-center" style="width: 200px"> <a href="https://icatbs.yuedu.cf/%E4%B9%A6%E6%BA%90%E5%85%B1%E4%BA%AB" class="mdui-list-item mdui-ripple">了解详情</a> <a href="https://icatbs.yuedu.cf/%E5%BF%AB%E6%8D%B7%E5%AF%BC%E5%85%A5" class="mdui-list-item mdui-ripple">快捷导入</a> <a href="https://yd.yuedu.cf/" class="mdui-list-item mdui-ripple">引导下载</a> <a href="https://qun.qq.com/qqweb/qunpro/share?_wv=3&amp;_wwv=128&amp;appChannel=share&amp;inviteCode=20USO5&amp;appChannel=share&amp;businessType=9&amp;from=246610&amp;biz=ka" class="mdui-list-item mdui-ripple">加入交流</a> 
-        <a href="https://Wiki.yuedu.cf/" class="mdui-list-item mdui-ripple">一只喵阅读Wiki</a>      <a href="https://yuedult.icatidc.edu.eu.org" class="mdui-list-item mdui-ripple">一只喵阅读书源论坛</a> 
-        </div> 
-        <script>LA.init({id: "JaUB62qG23I9Gi5v",ck: "JaUB62qG23I9Gi5v",autoTrack:true})</script>
-        <script src="https://cdn.w3cbus.com/library/mdui/1.0.2/js/mdui.min.js"></script>  
-    </body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+
+<head>
+    <meta charset="utf-8">
+
+    <title>一只喵书源站</title>
+    <script src="js/zepto.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <section class="intro">
+        <div class="xfix">
+            <div class="container">
+                <div class="logo-box">
+                    <img alt="nyanket logo" src="img/logo.png">
+                </div>
+                <div class="inner">
+                    <h1>一只喵书源站 ! 书源快捷导入</h1>
+                    <div class="slogan"></div>
+                    <div class="description">
+                     <!---- <p>一只喵书源站文化与创作相关活动的组织，</p>
+                        <p>致力于提供在票务、现场、社群策划等方面的方案与支持，</p>
+                        <p>建立爱好者、创作者与活动的互动渠道。</p>-->
+                        <p>书源聚合整理快速导入</p>
+                    </div>
+                    <div class="btnbox clear">
+                        <a href="/快捷导入" style="background-color:#3880c4;"><span class="emoji">🎫</span> 开始使用</a>
+                        <a href="mailto:yuedu.c" style="background-color:#ddd;color: #333;"><span
+                                class="emoji">📧</span> 通过邮件联系我们</a>
+                    </div>
+                </div>
+            </div>
+            <div class="small">
+                <p>ICATBS!</p>
+                <a style="text-decoration: none;"
+                    href="http://wpa.qq.com/">服务支持</a> /
+                <a style="text-decoration: none;" href="https://Google.com/">喵ICP备17001495号-1</a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            background-color: #fff;
+            font-family: &#x27;
+            Microsoft YaHei&#x27;
+            ;
+            font-size: 14px;
+            line-height: 2em;
+            color: #333;
+        }
+
+        section {
+            display: table;
+            text-align: center;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: normal;
+            line-height: 2em;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .clear:after {
+            content: &quot;
+            &quot;
+            ;
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .container .title {
+            padding: 0 0 40px 0;
+            font-size: 24px;
+        }
+
+        .container .title h2 {
+            line-height: 2em;
+        }
+
+        .container .title:after {
+            content: &#x27;
+            &#x27;
+            ;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            height: 2px;
+            width: 140px;
+            background: #222;
+        }
+
+        section.intro {
+            height: 100%;
+            width: 100%;
+            background-color: #e5e5e5;
+        }
+
+        section.intro .xfix {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        section.intro .container {
+            position: relative;
+            width: 600px;
+            background-color: #f5f5f5;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, .05);
+        }
+
+        section.intro .btnbox a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            background-color: #66ccff;
+            padding: 12px 35px;
+            transition: all .2s ease-in-out;
+            border-radius: 10px;
+            vertical-align: middle;
+            margin: 5px 10px;
+            border: 2px solid #f5f5f5;
+        }
+
+        section.intro .btnbox a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+        }
+
+        section.intro h1 {
+            font-size: 36px;
+        }
+
+        section.intro .slogan {
+            font-size: 16px;
+            height: 30px;
+        }
+
+        section.intro .slogan {
+            position: relative;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        section.intro .slogan p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        section.intro .slogan span {
+            display: inline-block;
+            padding: 4px;
+            transform: translateX(0);
+        }
+
+        section.intro .slogan p.in span {
+            animation: slogan_in .5s cubic-bezier(1, 0, 0, 1) both;
+        }
+
+        @keyframes slogan_in {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+
+        section.intro .slogan p.out span {
+            animation: slogan_out .5s cubic-bezier(1, 0, 0, 1) both;
+        }
+
+        @keyframes slogan_out {
+            from {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+
+            to {
+                opacity: 0;
+                transform: translateX(10px);
+            }
+        }
+
+        section.intro .description p {
+            font-size: 14px;
+            letter-spacing: .2em;
+        }
+
+        .small {
+            display: block;
+            color: #999;
+            margin: 20px 0;
+            margin-top: 60px;
+            font-size: 12px;
+            letter-spacing: .2em;
+        }
+
+        .logo-box {
+            background-color: #2E70BB;
+            width: 100%;
+            padding: 70px 0;
+        }
+
+        .logo-box img {
+            width: 60%;
+            height: auto;
+        }
+
+        .inner {
+            padding: 50px 20px;
+        }
+
+        .description {
+            padding: 40px 0;
+            color: #666;
+        }
+
+        .emoji {
+            font-size: 1.3em;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 800px) {
+            section.intro .container {
+                width: 100%;
+            }
+
+            .logo-box {
+                padding: 50px 0;
+            }
+
+            .inner {
+                padding: 50px 20px;
+            }
+
+            .description {
+                padding: 40px 0;
+            }
+
+            section.intro h2 {
+                font-size: 14px;
+            }
+
+            .small {
+                margin-top: 0;
+                margin: 30px 0;
+            }
+
+            section.intro .xfix {
+                display: block;
+            }
+        }
+    </style>
+
+    <script>
+        var slogan_words = [
+            "连接热情与喜悦",
+            "连接活动的线上与线下",
+            "现代的活动解决方案",
+            "Sience 2017",
+            "(。・`ω´・) 咕咕咕"
+        ];
+        var slogan_times = 0;
+
+        $(function () {
+            slogan();
+            loop = window.setInterval("slogan()", 3000);
+        });
+
+        function slogan() {
+            if (!slogan_times || slogan_times > slogan_words.length - 1) slogan_times = 0;
+            //console.log(slogan_times);
+
+            var w = slogan_words[slogan_times].split('');
+            //console.log(w);
+
+            var elbox = $('<p class="in" slogan-id="' + slogan_times + '"></p>');
+            $('.slogan').append($(elbox));
+
+            for (var i = 0; i < w.length; i++) {
+                //var delay = Math.random()+'s';
+                //var delay = i/20+Math.random()+'s';
+                var delay = i / 16 + 's';
+                var el = "<span style='animation-delay: " + delay + ";'>" + w[i] + "</span>";
+                $(elbox).append($(el));
+            };
+
+            setTimeout(function () {
+                $('.slogan .in').removeClass('in').addClass('out');
+                setTimeout("$('.slogan .out').remove()", 2000);
+            }, 2800);
+
+            slogan_times++;
+        }
+    </script>
+
+
+</body>
+
 </html>
